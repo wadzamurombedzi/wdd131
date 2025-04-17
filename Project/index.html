@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Design | Wadzanai</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Wadzanai Murombedzi</h1>
+            <h3>And I'm a <span>Software Engineer!</span></h3>
+            <p>I am Software Engineer who just finished her Professional Certificate with ALX Africa, now studying towards my Bachelor's degree in Software Development.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <img src="images/cvpp.jpg" class="home-img">
+
+    </section>
+
+    <section class="about" id="about">
+        <img src="images/cvpp.jpg" class="about-img">
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Engineer</h3>
+            <p>I am a fervent learner and user of technology who really enjoys applying my knowledge towards solving real world problems while working as an individual or in groups. I am committed to working hard to meet any challenges that may lie ahead of me.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Frontend Development</h3>
+                <p>Front-end Developer services focus on creating the user interface and user experience of a website or application. It involves using HTML, CSS, and JavaScript to create a visually appealing and interactive user interface that is optimized for different devices and screen sizes.
+                    with knowledge in <span>HTML, CSS, JavaScript, REACT, DJANGO</span>
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Backend Development</h3>
+                <p>Backend refers to server-side elements of web or software development with the user-facing elements of front-end development. Focused on the infrastructure and its security guards who make sure that the audience does disrupt anything.
+                    with knowledge in <span>PYTHON, GO, PHP (with LARAVEL)</span>
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/coffee1.jpg">
+                <div class="portfolio-layer">
+                    <h4>Front-end</h4>
+                    <p>Coffee Shop</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Wadzanai | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
